@@ -1,6 +1,6 @@
 FROM rocker/r-ver:4.1.3
 
-# Install system dependencies for the tidyverse R packages
+# Install system dependencies for the esd R package (https://github.com/metno/esd)
 
 RUN apt-get update
 
